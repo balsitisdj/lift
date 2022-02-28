@@ -1,0 +1,8 @@
+{
+  "name": "Lift",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "535ef3ff"
+}
