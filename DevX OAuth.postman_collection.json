@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "d0c41ea8-f561-4cdb-86ee-cc0da7a7449a",
+		"name": "DevX OAuth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1038219"
+	},
+	"item": [
+		{
+			"name": "ATP QA",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "client_id=1e228eca901d442a90d4474ead973ece&client_secret=049f5087e33609c73c873dff84b79dca&grant_type=client_credentials"
+				},
+				"url": {
+					"raw": "https://api-it.cloud.capitalone.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"api-it",
+						"cloud",
+						"capitalone",
+						"com"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ATP Prod",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "client_id=enterpriseapi-68eaL6CFOZH1mG2PY5p9ff78&client_secret=6dee7a53da043eb849cff1b839e32be05720adb9&grant_type=client_credentials"
+				},
+				"url": {
+					"raw": "https://api.cloud.capitalone.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cloud",
+						"capitalone",
+						"com"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insight QA",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "client_id=f609c7725b7a48858e99b65f651f9e25&client_secret=ec2539f9f8479ea33d91d24a1fc6806a&grant_type=client_credentials"
+				},
+				"url": {
+					"raw": "https://api-it.cloud.capitalone.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"api-it",
+						"cloud",
+						"capitalone",
+						"com"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insight Prod",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "client_id=4c8b3aea1af446068fa6712f79419d39&client_secret=997bfc5ddf921e98058f2e3f83e88ef2&grant_type=client_credentials"
+				},
+				"url": {
+					"raw": "https://api.cloud.capitalone.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cloud",
+						"capitalone",
+						"com"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "qso842-preprod",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "client_id=a50f7ec5eef84d4aabf409b812536b93&client_secret=44ae7f380da88d0ff5462ad27891ce8e&grant_type=client_credentials"
+				},
+				"url": {
+					"raw": "https://api-it.cloud.capitalone.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"api-it",
+						"cloud",
+						"capitalone",
+						"com"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
